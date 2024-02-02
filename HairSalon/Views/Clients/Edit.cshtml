@@ -12,14 +12,17 @@
 {
   @Html.HiddenFor(model => model.ClientId)
 
-  @Html.LabelFor(model => model.CustomerName, "Name")
+  @Html.LabelFor(model => model.CustomerName)
   @Html.EditorFor(model => model.CustomerName)
+  <br/>
 
   @Html.LabelFor(model => model.Appointments)
   @Html.EditorFor(model => model.Appointments)
+  <br/>
 
   @Html.LabelFor(model => model.Stylist)
   @Html.DropDownList("StylistId")
+  <br/>
 
   <input type="submit" value="Save" />
 }
