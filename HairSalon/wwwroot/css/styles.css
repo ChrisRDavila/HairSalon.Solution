@@ -1,3 +1,4 @@
+
 a {
 	color: seagreen;
 }
@@ -66,27 +67,7 @@ div#footer {
   background-position: center;
   border-color: rgb(125, 197, 158);
   border-style: outset;
-	/* animation: pulse 10s infinite; */
 }
-
-/* @keyframes pulse {
-	0% {
-		background-color: rgb(203, 235, 218);
-		color: white;
-		opacity: 0.1;
-		border-radius: 2px;
-	}
-	50% {
-		background-color: wheat;
-		border-radius: 30px;
-	}
-	100% {
-		background-color: magenta;
-		color: black;
-		opacity: 1;
-		border-radius: 2px;
-	}
-} */
 
 .alignment {
 	margin-left: 20%;
