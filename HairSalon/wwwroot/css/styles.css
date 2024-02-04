@@ -3,6 +3,14 @@ img {
 	opacity: 0.5;
 	border-radius: 160px;
 }
+.fade-in-image {
+	animation: fadeIn 4s;
+}
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: .9; }
+}
+
 a {
 	color: seagreen;
 }
@@ -88,3 +96,32 @@ marquee {
     -1px 1px 0 #000,
     1px 1px 0 #000;  
 }
+
+i.fa.fa-home {
+	animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+	0% {
+		background-color:aliceblue;
+		color: black;
+		opacity: 1;
+	}
+	25% {
+		background-color: magenta;
+		color: black;
+		opacity: .5;
+	}
+	50% {
+		background-color: wheat;
+		opacity: 1;
+		color: black;
+	}
+	100% {
+		background-color:aliceblue;
+		color: black;
+		opacity: 1;
+	}
+}
+
+
