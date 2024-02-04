@@ -1,4 +1,8 @@
-
+img {
+	width: 30%;
+	opacity: 0.5;
+	border-radius: 160px;
+}
 a {
 	color: seagreen;
 }
@@ -61,10 +65,6 @@ div#footer {
   margin-left: auto;
   margin-right: auto;
 	margin-top: 20px;
-  background-image: url('../img/bground1.jpeg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
   border-color: rgb(125, 197, 158);
   border-style: outset;
 }
