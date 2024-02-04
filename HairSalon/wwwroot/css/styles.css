@@ -98,7 +98,7 @@ marquee {
 }
 
 i.fa.fa-home {
-	animation: pulse 2s infinite;
+	animation: pulse 1.5s infinite;
 }
 
 @keyframes pulse {
@@ -109,18 +109,20 @@ i.fa.fa-home {
 	}
 	25% {
 		background-color: magenta;
-		color: black;
+		color: white;
 		opacity: .5;
+		border-bottom: 30px;
 	}
 	50% {
 		background-color: wheat;
 		opacity: 1;
-		color: black;
+		color: magenta;
 	}
 	100% {
 		background-color:aliceblue;
 		color: black;
 		opacity: 1;
+		border-radius: 30px;
 	}
 }
 
